@@ -58,4 +58,5 @@ The final model is deployed on **ESP32** using the *Eloquent TinyML* library in 
 
 **Note**
 ShuffleNetV2_KD.ipynb contains the Model Implementation
+
 TinyML_Audio_Classifier folder contains Arduino Implementation
