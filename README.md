@@ -3,7 +3,7 @@
 This project presents an efficient TinyML solution for real-time environmental sound classification aimed at assisting hearing-impaired individuals. The system recognizes critical sounds like sirens, car horns, and gunshots, and displays the results on an OLED screen using an embedded microcontroller.
 
 **Overview**
-- Deploys a compact and accurate CNN model on **ESP32**
+- Deploys a compact and accurate CNN model on **ESP32 S3 N8R8**
 - Uses the **UrbanSound8K** dataset with 10 environmental sound classes
 - Processes audio through **log-Mel spectrograms**
 - Delivers real-time classification with **minimal latency** and **low memory footprint**
@@ -15,7 +15,7 @@ This project presents an efficient TinyML solution for real-time environmental s
 - **Inference Time**: ~0.71 ms
 
 **Hardware:**
-- **ESP32**
+- **ESP32 S3 N8R8**
 - **INMP441** I2S digital MEMS microphone
 - **SSD1306** 128x64 OLED display via I2C
 
@@ -56,3 +56,6 @@ The final model is deployed on **ESP32** using the *Eloquent TinyML* library in 
 - Support *more sound classes*
 - Deploy on *wearable devices* for continuous monitoring
 
+**Note**
+ShuffleNetV2_KD.ipynb contains the Model Implementation
+TinyML_Audio_Classifier folder contains Arduino Implementation
