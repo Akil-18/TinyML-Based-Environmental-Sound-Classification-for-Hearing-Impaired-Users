@@ -1,4 +1,4 @@
-**TinyML-Based Environmental Sound Classification for Hearing-Impaired Users**
+# **TinyML-Based Environmental Sound Classification for Hearing-Impaired Users**
 
 This project presents an efficient TinyML solution for real-time environmental sound classification aimed at assisting hearing-impaired individuals. The system recognizes critical sounds like sirens, car horns, and gunshots, and displays the results on an OLED screen using an embedded microcontroller.
 
