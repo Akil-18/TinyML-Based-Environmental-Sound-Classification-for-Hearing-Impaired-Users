@@ -1,12 +1,14 @@
-# **TinyML-Based Environmental Sound Classification for Hearing-Impaired Users**
+Environmental Sound Classification using DSP and TinyML**
 
 This project presents an efficient TinyML solution for real-time environmental sound classification aimed at assisting hearing-impaired individuals. The system recognizes critical sounds like sirens, car horns, and gunshots, and displays the results on an OLED screen using an embedded microcontroller.
 
 **Overview**
-- Deploys a compact and accurate CNN model on **ESP32 S3 N8R8**
-- Uses the **UrbanSound8K** dataset with 10 environmental sound classes
-- Processes audio through **log-Mel spectrograms**
-- Delivers real-time classification with **minimal latency** and **low memory footprint**
+
+• Built an environmental sound classification system using ShuffleNetV2, incorporating digital signal processing (DSP) techniques such as framing, windowing, FFT, and Log-Mel spectrogram–based audio feature extraction.
+
+• Performed knowledge distillation from a 26 MB CNN teacher model to train a 450 KB ShuffleNetV2 model using soft labels, improving its accuracy by 2% while preserving the model size.
+
+• Applied INT8 quantization, reducing model size to 154KB while retaining 98% accuracy and deployed it on ESP-32.
 
 **Key Features**
 - **Model**: Optimized **ShuffleNetV2** with *knowledge distillation*
